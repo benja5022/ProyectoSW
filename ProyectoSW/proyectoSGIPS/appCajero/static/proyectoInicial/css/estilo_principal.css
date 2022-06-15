@@ -1,0 +1,31 @@
+.nave {
+  background-color: #CB3737;
+}
+
+.navbar {
+  background-color: #CB3737;
+}
+
+.container-fluid {
+  background-color: #CB3737;
+}
+.container-fluid header {
+  margin: 0px 0px 0px;
+}
+.container-fluid .nav-link {
+  color: white;
+}
+.container-fluid .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav a:hover {
+  color: white !important;
+}
+
+body {
+  background-color: #E3E3E3;
+}
+
+/*# sourceMappingURL=estilo_principal.css.map */

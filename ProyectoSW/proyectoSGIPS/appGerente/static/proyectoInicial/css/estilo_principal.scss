@@ -1,0 +1,35 @@
+$colorBase: #CB3737;
+
+.nave{
+    background-color: $colorBase;
+}
+
+.navbar{
+    background-color: $colorBase;
+}
+
+.container-fluid{
+    background-color: $colorBase;
+
+    header{
+        margin: 0px 0px 0px;
+    }
+
+    .nav-link{
+        color: white;
+    }
+    
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+.navbar-nav a:hover{
+    color:white !important;
+}
+
+body{
+    background-color: #E3E3E3 ;
+}
