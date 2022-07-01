@@ -4,7 +4,26 @@
 
 {% block content %}
 
-    <h1>Pagina del gerente registrar turno</h1>
+<div class = "container  mb-5" style=" width: 100%;">
+    <img src="../../static/proyectoInicial/images/sta_isabel.jpg" style=" width: 100%; margin-top: 5%;" class="img-static img-center border border-danger">
+    <!--Primera seccion de la fila-->
+    <div class="row" style="margin-top: 5%;">
+        <div class="col-sm-6">
+          <div class="card" style="background-color:#EE6F57;">
+            <div class="card-body">
+              <a href="{% url 'gerenteinfpersonal'  %}" style=" width: 100%; background-color:#EE6F57;" class="btn text-white">Marcar Entrada</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card" style="background-color:#EE6F57;">
+                <div class="card-body">
+                   <a href="{% url 'gerenteinfproductos'  %}" style=" width: 100%; background-color:#EE6F57;" class="btn text-white">Marcar Salida</a>
+                </div>
+          </div>
+        </div>
+    </div> 
+</div>
 
 
 
