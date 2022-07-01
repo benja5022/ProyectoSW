@@ -27,5 +27,18 @@
 body {
   background-color: #E3E3E3;
 }
+.boton{
+  box-sizing: border-box;
 
+  position: absolute;
+  left: 52.67%;
+  right: 5.33%;
+  top: 43.05%;
+  bottom: 47.96%;
+
+  background: #EE6F57;
+  border: 5px solid #FFFFFF;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
 /*# sourceMappingURL=estilo_principal.css.map */
